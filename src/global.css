@@ -1,0 +1,25 @@
+:root{
+    --cinza-claro:#e7e1e1;
+    --cinza-escuro:#e9d3e7;
+    --roxo-escuro:#d11c6b;
+    --roxo-claro:#ff758f;
+
+}
+
+
+
+*{
+    margin: 0px; 
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var( --cinza-claro);
+}
+
+body, input, textarea,button{
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
